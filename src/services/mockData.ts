@@ -56,7 +56,7 @@ export const mockMarketData = {
 export const mockRecentActivity = [
   { 
     id: "act-1", 
-    type: "buy", 
+    type: "buy" as "buy", 
     symbol: "BTC", 
     amount: "0.05 BTC", 
     price: "2,350.25", 
@@ -64,7 +64,7 @@ export const mockRecentActivity = [
   },
   { 
     id: "act-2", 
-    type: "sell", 
+    type: "sell" as "sell", 
     symbol: "ETH", 
     amount: "1.25 ETH", 
     price: "4,125.75", 
@@ -72,7 +72,7 @@ export const mockRecentActivity = [
   },
   { 
     id: "act-3", 
-    type: "buy", 
+    type: "buy" as "buy", 
     symbol: "SOL", 
     amount: "10 SOL", 
     price: "1,435.60", 
